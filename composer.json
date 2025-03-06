@@ -1,0 +1,19 @@
+{
+    "name": "tedblanc/php-cli-demo",
+    "description": "PHP command-line tool demo",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tedblanc\\PhpCliDemo\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "symfony/console": "^7.2"
+    },
+    "bin": [
+        "bin/demo"
+    ]
+}
