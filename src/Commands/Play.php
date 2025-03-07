@@ -39,7 +39,7 @@ class Play extends Command
 
         $io = new InputOutput($input, $output);
 
-        $answer = (int) $io->question(sprintf('What is %s + %s?', $term1, $term2));
+        $answer = (int)$io->question(sprintf('What is %s + %s?', $term1, $term2));
 
         if ($answer === $result) {
             $io->right('Well done!');
@@ -61,7 +61,6 @@ class Play extends Command
             // the command description shown when running "php bin/console list"
             ->setDescription(self::$defaultDescription)
             // the command help shown when running the command with the "--help" option
-            ->setHelp('This command allows you to do stuff...')
-        ;
+            ->setHelp('This command allows you to do stuff...');
     }
 }
