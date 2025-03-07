@@ -17,6 +17,6 @@
         "bin/demo"
     ],
     "require-dev": {
-        "phpunit/phpunit": "^12.0"
+        "phpunit/phpunit": "*"
     }
 }
